@@ -1,0 +1,26 @@
+{
+  "name": "celeste-themes",
+  "version": "0.0.1",
+  "publisher": "alanaktion",
+  "displayName": "Celeste Themes",
+  "description": "A dark theme based on Celeste from Sublime Text",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alanaktion/celeste-themes-vscode"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Celeste Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Celeste Dark-color-theme.json"
+      }
+    ]
+  }
+}
